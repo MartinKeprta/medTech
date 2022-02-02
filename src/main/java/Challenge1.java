@@ -25,10 +25,7 @@ public class Challenge1 extends Page{
     }
 
     public boolean checkIfListContainsCase(String usecase){
-        //sleep(3000);
         for(SelenideElement element:usecases){
-            System.out.println("Expected["+usecase+"]");
-            System.out.println("Provided["+element.getOwnText());
             if(element.getOwnText().replaceAll(" ", "").equals(usecase.replaceAll(" ", "")))return true;
         }
         return false;

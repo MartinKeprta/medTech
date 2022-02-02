@@ -28,7 +28,9 @@ public class ChallengeTest {
                 {"alert('Hello')","Basic Sql injection "},
                {"Gheorghe_asdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","More than maximum values "},
                 {"<b>test</b>","You used html tags "},
-                {"##@@","Other chars then alphabetic "}
+                {"##@@","Other chars then alphabetic "},
+                {"¢¢¢¢","Non ASCII"},
+                {"","Empty value"}
 
 
 
